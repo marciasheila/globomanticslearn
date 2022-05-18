@@ -36,5 +36,6 @@ jobs:
            template: ./arm-templates/storageaccount.json
            parameters: 
                ./arm-templates/storageaccount.parameters.json
-               storageAccountname=globito2act 
+               storageAccountName=globito2act 
+               location=East US2
            deploymentMode: incremental
