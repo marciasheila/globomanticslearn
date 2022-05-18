@@ -34,5 +34,7 @@ jobs:
            resourceGroupName: rg-githubactions
            subscriptionId: bc80bedc-3a56-450a-b367-ad7b084804fd
            template: ./arm-templates/storageaccount.json
-           parameters: ./arm-templates/storageaccount.parameters.json
+           parameters: 
+               ./arm-templates/storageaccount.parameters.json
+               storageAccountname=globito2act 
            deploymentMode: incremental
